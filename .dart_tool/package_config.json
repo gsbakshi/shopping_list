@@ -2,37 +2,19 @@
   "configVersion": 2,
   "packages": [
     {
-      "name": "collection",
-      "rootUri": "file:///Users/gurmeharbakshi/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "equatable",
-      "rootUri": "file:///Users/gurmeharbakshi/.pub-cache/hosted/pub.dartlang.org/equatable-2.0.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "meta",
-      "rootUri": "file:///Users/gurmeharbakshi/.pub-cache/hosted/pub.dartlang.org/meta-1.7.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "pedantic",
       "rootUri": "file:///Users/gurmeharbakshi/.pub-cache/hosted/pub.dartlang.org/pedantic-1.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
-      "name": "test",
+      "name": "simple_ecommerce",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-07-31T09:00:22.950828Z",
+  "generated": "2021-08-01T23:54:46.945191Z",
   "generator": "pub",
   "generatorVersion": "2.13.1"
 }
