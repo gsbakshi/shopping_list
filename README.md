@@ -1,34 +1,97 @@
-## Shopping List
+## Simple E-Commerce CLI Application
 
-<!-- Build a command line tool that can process a .csv file to generate a report as per our requirements.
+Build a command line tool for a simple e-commerce application.
 
 ### Usage
 
 ```
-dart total.dart <inputFileName.csv>
+dart bin/main.dart
 ```
 
-It should then read the file and check if it exists.
+It should then proceed to give a list of prompts and their acceptable commands.
 
-> If the file name is invalid, the user will recieve a prompt 
-> indicating that the give file does not exist.
+```
+List of commands : 
 
-After the user has entered a valid file name, generate a report giving a breakdown of all time spent on each activity type from the given data.
+(v) view items 
+(a) add items 
+(c) checkout 
+(q) to exit 
+```
+The user will then proceed to enter the command specifying their selection.
+
+> If the input is invalid, the user will recieve a prompt indicating so.
+
+`The user can use the q command to pre-emptively quit the application`
 
 ### Sample Output
 
 ```
-Blogging: 62.9h
-Flutter Firebase Course: 393.9h
-Unallocated: 52.4h
-YouTube Production: 166.0h
-Community engagement: 54.5h
-Development: 83.1h
-Promotion: 25.2h
-Website / Setup: 66.2h
-BizDev / Sponsors: 2.0h
-Analytics / Growth: 14.7h
-Admin: 1.6h
-Client Leads: 1.7h
-Total time overall: 924.2h
-``` -->
+==========================     Shopping List     ==========================
+
+
+List of commands : 
+
+(v) view items 
+(a) add items 
+(c) checkout 
+(q) to exit 
+
+What do you want to do?: w
+Invalid input 
+
+
+List of commands : 
+
+(v) view items 
+(a) add items 
+(c) checkout 
+(q) to exit 
+
+What do you want to do?: v
+
+------
+Cart is empty
+------
+
+
+List of commands : 
+
+(v) view items 
+(a) add items 
+(c) checkout 
+(q) to exit 
+
+What do you want to do?: a
+
+Available products:
+
+(a) apples: $1.6
+(b) bananas: $0.7
+(c) courgettes: $1.0
+(g) grapes: $2.0
+(m) mushrooms: $0.8
+(p) potatoes: $1.5
+
+Your choice: p
+
+------
+1 x potatoes: $1.5
+Total: $1.5
+------
+
+
+List of commands : 
+
+(v) view items 
+(a) add items 
+(c) checkout 
+(q) to exit 
+
+What do you want to do?: c
+Total: $1.5
+Payment in cash: 2
+Change :  $0.50
+
+###########    Checking Out...    ###########
+```
